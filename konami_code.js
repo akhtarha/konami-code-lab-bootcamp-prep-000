@@ -21,7 +21,7 @@ function init() {
   console.log(codes.length===keyDownArr.length)
   keyDownArr.push(event.key)
   
-  if (keyDownArr.length => 10) {
+  if (keyDownArr.length > 10) {
     
     
   
