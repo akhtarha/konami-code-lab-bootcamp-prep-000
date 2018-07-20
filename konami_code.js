@@ -22,7 +22,7 @@ function init() {
 
     if (e.keyCode == '38') {
           document.getElementById("demo").innerHTML = Date();
-        alert("body was clicked!");
+        console.log("body was clicked!");
         // up arrow
     }
     else if (e.keyCode == '40') {
