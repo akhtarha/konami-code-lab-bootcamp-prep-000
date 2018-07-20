@@ -38,9 +38,9 @@ function init() {
 }
 
 
-document.addEventListener("onkeydown", function(){
-    document.getElementById("demo").innerHTML = Date();
-});
+// document.addEventListener("onkeydown", function(){
+//     document.getElementById("demo").innerHTML = Date();
+// });
   
   
   //   for (let i = 0, l = codes.length; i < l; i++) {
