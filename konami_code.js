@@ -28,11 +28,11 @@ function init() {
       break;
     } 
   }
-  })
+  }
       
   if (codes.length == keyDownArr.length){
     alert("FUCKING DONE WANKER");
-  }
+  })
   
   
   
