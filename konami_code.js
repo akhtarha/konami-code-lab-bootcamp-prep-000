@@ -18,17 +18,14 @@ function init() {
 }
   document.body.addEventListener('keydown', function(event){
   console.log("keydown: "+ event.key)
-  
   console.log(codes.length===keyDownArr.length)
-  
   keyDownArr.push(event.key)
   console.log("keyDownArrlength: "+ keyDownArr.length)
   console.log("keyDownArr: "+keyDownArr)
   
     for (let i=0; i<codes.length; i++){
       if (codes[i] != keyDownArr[i]){
-        console.log("index="+i)
-        console.log(codes[i]+ " : "+ keyDownArr[i])
+        console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
         //keyDownArr=[]
       } else {
         if (codes.length === keyDownArr.length){
