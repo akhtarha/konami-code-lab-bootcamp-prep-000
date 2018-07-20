@@ -21,20 +21,16 @@ function init() {
   keyDownArr.push(event.key)
   console.log(keyDownArr.length + ", arr: "+keyDownArr)
   
-  if (keyDownArr.length === codes.length) {
-    console.log("lengths are equal")
-    for (let i=0; i<10; i++){
-      console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
-      if (codes[i] !== keyDownArr[i]){
-        keyDownArr=[]
-      }
+  for (let i=0; i<10; i++){
+    console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
+    if (codes[i] !== keyDownArr[i]){
+      keyDownArr=[]
+      break;
+    } 
       
-      
-    }
-    
+  if (codes.length === keyDownArr.length){
+    alert("FUCKING DONE WANKER")
   }
-    
-  })
 
 
 // var keys = [];
