@@ -19,7 +19,7 @@ function init() {
   document.body.addEventListener('keydown', function(event){
   console.log("key dispatched: "+ event.key)
   keyDownArr.push(event.key)
-  console.log(keyDownArr.length)
+  console.log(keyDownArr.length + ", arr: "+keyDownArr)
   
   if (keyDownArr.length >= 10) {
     for (let i=0; i<10; i++){
