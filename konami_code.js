@@ -50,6 +50,6 @@ function checkArr(codes, keyDownArr){
     //   } 
     // }
     
-    codes.every(function(value, index)){ 
+    codes.every(function(value, index){ 
       return value === array2[index]})
   }
