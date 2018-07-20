@@ -40,19 +40,6 @@ function init() {
   })
 
 
-// function konamiCodeAchieved(){
-//   for (let i=0; i<codes.length; i++){
-//     if (codes[i] != keyDownArr[i]){
-//       keyDownArr=[]
-//     } else {
-//       if (codes.length === keyDownArr.length){
-//         alert("Fook")
-//       }
-//     }
-//   }
-  
-  
-  
 var keys = [];
 const body = document.body;
 function init() {
