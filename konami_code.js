@@ -20,6 +20,7 @@ function init() {
   console.log("keydown: "+ event.key)
   console.log("keyDownArr: "+keyDownArr)
   console.log("keyDownArrlength: "+keyDownArr.length)
+  console.log(codes.length===keyDownArr.length)
   
   if (keyDownArr.length === 10){
     keyDownArr.shift()
