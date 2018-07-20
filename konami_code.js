@@ -16,7 +16,14 @@ var keyDownArr = []
 function init() {
   document.body.addEventListener('keydown', function(event){
     console.log("keydown: "+ event.key)
-    if (keyDownArr ===10)
+    keyDownArr.push(event.key)
+    if (keyDownArr ===10){
+      for (let i=0; i<codes.length; i++){
+        if (codes[i]===keydownArr[i]){
+          
+        }
+      }
+    }
   })
   
   
