@@ -30,11 +30,14 @@ function init() {
 }
 
 function konamiCodeAchieved(){
-    console.log("before")
-
-  if (_.isEqual(codes, keyDownArr)){
-  console.log("yes it has been achieved")
+  for (let i=0; i<codes.length; i++){
+    if (codes[i] != keyDownArr[i]){
+      keyDownArr=[]
+    } else {
+      if (codes.length === keyDownArr.length){
+        alert("Fook")
+      }
+    }
   }
-  console.log("after")
 
 }
