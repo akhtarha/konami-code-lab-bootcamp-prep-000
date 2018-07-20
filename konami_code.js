@@ -21,8 +21,7 @@ function init() {
   console.log(codes.length===keyDownArr.length)
   
   keyDownArr.push(event.key)
-  console.log("keyDownArrlength: "+ keyDownArr.length)
-  console.log("keyDownArr: "+keyDownArr)
+  console.log("keyDownArrlength: "+ keyDownArr.length+ ", keyDownArr: "+keyDownArr)
   
     for (let i=0; i<codes.length; i++){
       if (codes[i] != keyDownArr[i]){
