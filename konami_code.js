@@ -35,4 +35,6 @@ function konamiCodeAchieved(){
   if (_.isEqual(codes, keyDownArr)){
   console.log("yes it has been achieved")
   }
+  console.log("after")
+
 }
