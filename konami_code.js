@@ -14,7 +14,7 @@ const codes = [
 function init() {
   document.body.addEventListener('keydown', function(event){
     console.log("keydown: "+ event.key)
-    alert('anything')
+    
   })
   
   
