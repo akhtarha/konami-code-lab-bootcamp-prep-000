@@ -25,8 +25,8 @@ function init() {
     console.log("lengths are equal")
     for (let i=0; i<10; i++){
       console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
-      if (codes[i] == keyDownArr[(keyDownArr.length-10)+i]){
-        alert('something')
+      if (codes[i] !== keyDownArr[i]){
+        keyDownArr=[]
       }
       
       
