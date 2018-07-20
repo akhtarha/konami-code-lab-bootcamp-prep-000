@@ -21,10 +21,8 @@ function init() {
       keyDownArr.shift()
       keyDownArr.push(event.key)
       
-      for (let i=0; i<codes.length; i++){
-        if (codes[i]===keydownArr[i]){
-          
-        }  
+      if (codes.equal(keyDownArr)){
+        alert("Hell ya")
       }
     } else {
       keyDownArr.push(event.key)
