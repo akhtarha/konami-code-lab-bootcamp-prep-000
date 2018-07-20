@@ -17,22 +17,17 @@ function init() {
   document.body.addEventListener('keydown', function(event){
     console.log("keydown: "+ event.key)
     
-    if (keyDownArr ===10){
-      keyDownArr.push(event.key)
+    if (keyDownArr.length === 10){
       keyDownArr.shift()
+      keyDownArr.push(event.key)
       
       for (let i=0; i<codes.length; i++){
         if (codes[i]===keydownArr[i]){
           
+        }  
       }
     } else {
       keyDownArr.push(event.key)
     }
-    
-      
-      }
-    }
-  })
-  
-  
+  }
 }
