@@ -21,7 +21,7 @@ function init() {
   keyDownArr.push(event.key)
   console.log(keyDownArr.length + ", arr: "+keyDownArr)
   
-  for (let i=0; i<10; i++){
+  for (let i=0; i < keyDownArr.length; i++){
     console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
     if (codes[i] !== keyDownArr[i]){
       keyDownArr=[]
