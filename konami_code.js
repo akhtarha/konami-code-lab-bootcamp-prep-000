@@ -31,6 +31,7 @@ function init() {
       } else {
         if (codes.length === keyDownArr.length){
           console.log("Fook")
+          return true
         }
       }
     }
