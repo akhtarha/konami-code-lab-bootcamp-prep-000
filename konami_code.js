@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   
-document.addEventListener("ArrowUp", function(){
+document.addEventListener("onkeydown", function(){
     document.getElementById("demo").innerHTML = Date();
 });
   
