@@ -12,6 +12,13 @@ const codes = [
 ];
 
 function init() {
+  
+    function triggerKeyDown(key) {
+    const keyboardEvent = new KeyboardEvent("keydown", { key });
+    document.body.dispatchEvent(keyboardEvent);
+  }
+  
+  
   // your code here
   
   const body = document.body.addEventListener('ArrowUp', function(event){
