@@ -1,5 +1,3 @@
-import 
-
 const codes = [
   "ArrowUp",
   "ArrowUp",
