@@ -31,17 +31,22 @@ function init() {
 
 function konamiCodeAchieved(){
   var achieved = checkArr(codes, keyDownArr)
+  
+  
+  
   if (achieved){
-    alert("yes")
+    alert("yes it has been achieved")
   }
 }
 
 function checkArr(codes, keyDownArr){
-    for (let i=0; i<codes.length; i++){
-      if (codes[i]===keyDownArr[i]){
-        achieved.push(true)
-      } else{
-        achieved.push(false)
-      } 
-    }
+    // for (let i=0; i<codes.length; i++){
+      
+      
+    //   if (codes[i]===keyDownArr[i]){
+    //     achieved.push(true)
+    //   } else{
+    //     achieved.push(false)
+    //   } 
+    // }
   }
