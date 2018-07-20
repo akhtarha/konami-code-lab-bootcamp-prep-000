@@ -19,6 +19,7 @@ function init() {
   document.body.addEventListener('keydown', function(event){
   console.log("keydown: "+ event.key)
   console.log("keyDownArr: "+keyDownArr)
+  console.log("keyDownArrlength: "+keyDownArr.length)
   
   if (keyDownArr.length === 10){
     keyDownArr.shift()
@@ -29,8 +30,6 @@ function init() {
       } else {
         if (codes.length === keyDownArr.length){
           alert("Fook")
-        } else{
-          console.log("keyDownArrlength: "+keyDownArr.length)
         }
       }
     }
