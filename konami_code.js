@@ -11,12 +11,10 @@ const codes = [
   "a"
 ];
 
-
+var keyDownArr = []
+var achieved = []
 
 function init() {
-  keyDownArr = []
-  achieved = []
-  
   document.body.addEventListener('keydown', function(event){
     console.log("keydown: "+ event.key)
     
@@ -40,7 +38,7 @@ function konamiCodeAchieved(){
 
 function checkArr(){
     for (let i=0; i<codes.length; i++){
-      if (codes[i]===keydownArr[i]){
+      if (codes[i]===keyDownArr[i]){
         achieved.push(true)
       } else{
         achieved.push(false)
