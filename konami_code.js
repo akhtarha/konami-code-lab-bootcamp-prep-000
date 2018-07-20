@@ -13,8 +13,7 @@ const codes = [
 
 function init() {
   // your code here
-  const body = document.querySelector('body')
-  body.addEventListener('keydown', function(event){
+  const body = document.body.addEventListener('keydown', function(event){
     alert("body was clicked!")
   })
   
