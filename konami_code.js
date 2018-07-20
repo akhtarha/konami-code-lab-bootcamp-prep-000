@@ -18,11 +18,10 @@ function init() {
   
     for (let i = 0, l = codes.length; i < l; i++) {
       
-      document.body.addEventListener('keydown', function(event){
+      document.body.addEventListener(codes[i], function(event){
       window.alert("body was clicked!")
   })
       
-        triggerKeyDown(codes[i]);
       }
   
 
