@@ -23,7 +23,6 @@ function init() {
   console.log(codes.length===keyDownArr.length)
   
   if (keyDownArr.length === 9){
-    keyDownArr.shift()
     keyDownArr.push(event.key)
     for (let i=0; i<codes.length; i++){
       if (codes[i] != keyDownArr[i]){
