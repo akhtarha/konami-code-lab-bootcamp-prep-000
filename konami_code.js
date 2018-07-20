@@ -13,6 +13,10 @@ const codes = [
 
 function init() {
   
+  
+  document.onkeydown = checkKey;
+  
+  
 document.addEventListener("onkeydown", function(){
     document.getElementById("demo").innerHTML = Date();
 });
