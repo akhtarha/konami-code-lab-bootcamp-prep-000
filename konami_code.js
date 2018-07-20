@@ -27,14 +27,15 @@ function init() {
       keyDownArr=[]
       break;
     } 
+  }
+  })
       
   if (codes.length == keyDownArr.length){
     alert("FUCKING DONE WANKER");
   }
-  }
-  }
-)
-
+  
+  
+  
 // var keys = [];
 // const body = document.body;
 // function init() {
