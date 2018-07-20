@@ -22,14 +22,8 @@ function init() {
   keyDownArr.push(event.key)
   
   if (keyDownArr.length >= 10) {
-    
-    
-  
     for (let i=0; i<10; i++){
-      
-      
       console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
-
       if (codes[i] == keyDownArr[(keyDownArr.length-10)+i]){
         alert('something')
       }
