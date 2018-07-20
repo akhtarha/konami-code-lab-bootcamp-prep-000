@@ -19,21 +19,28 @@ function init() {
   document.body.addEventListener('keydown', function(event){
   console.log("key dispatched: "+ event.key)
   console.log(codes.length===keyDownArr.length)
-  
   keyDownArr.push(event.key)
-  console.log("keyDownArrlength: "+ keyDownArr.length+ ", keyDownArr: "+keyDownArr)
+  
+  if (keyDownArr.length => 10) {
+    
+    
   
     for (let i=0; i<codes.length; i++){
-              console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
+      
+      
+      console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
 
       if (codes[i] != keyDownArr[i]){
-        keyDownArr=[]
+        
       }
       
       if (codes.length === keyDownArr.length){
           alert("Fook");
       }
     }
+    
+  }
+    
   })
 
 
