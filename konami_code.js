@@ -27,13 +27,13 @@ function init() {
       if (codes[i] != keyDownArr[i]){
         console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
         //keyDownArr=[]
-      } else {
-        if (codes.length === keyDownArr.length){
+      }
+      
+      if (codes.length === keyDownArr.length){
           alert("Fook");
-        }
       }
     }
-    })
+  })
 
 
 // var keys = [];
