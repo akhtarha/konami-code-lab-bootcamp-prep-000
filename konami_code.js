@@ -25,18 +25,16 @@ function init() {
     
     
   
-    for (let i=0; i<codes.length; i++){
+    for (let i=0; i<10; i++){
       
       
       console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
 
-      if (codes[i] != keyDownArr[i]){
+      if (codes[i] != keyDownArr[(keyDownArr.length-10)+i]){
         
       }
       
-      if (codes.length === keyDownArr.length){
-          alert("Fook");
-      }
+      
     }
     
   }
