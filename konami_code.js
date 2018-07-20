@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   
-document.addEventListener("click", function(){
+document.addEventListener("ArrowUp", function(){
     document.getElementById("demo").innerHTML = Date();
 });
   
