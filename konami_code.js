@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   
-          document.body.addEventListener('click', function(event){
+  document.body.addEventListener('click', function(event){
       alert("body was clicked!")
   })
   
