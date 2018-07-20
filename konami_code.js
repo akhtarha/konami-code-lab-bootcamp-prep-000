@@ -30,12 +30,7 @@ function init() {
 }
 
 function konamiCodeAchieved(){
-  var achieved = checkArr(codes, keyDownArr)
-  if (achieved){
+  if (_.isEqual(codes, keyDownArr)){
   alert("yes it has been achieved")
   }
 }
-
-function checkArr(codes, keyDownArr){
-   _.isEqual(codes, keyDownArr)
-  }
