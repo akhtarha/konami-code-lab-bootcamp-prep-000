@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   // your code here
-  const body = document.body.addEventListener('keydown', function(event){
+  const body = document.body.addEventListener('ArrowUp', function(event){
     window.alert("body was clicked!")
   })
   
