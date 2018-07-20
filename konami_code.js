@@ -15,30 +15,41 @@ var keyDownArr = []
 var achieved = []
 
 function init() {
-  document.body.addEventListener('keydown', function(event){
-    console.log("keydown: "+ event.key)
-    
-    if (keyDownArr.length === 10){
-      keyDownArr.shift()
-      keyDownArr.push(event.key)
-      konamiCodeAchieved()
-    }else {
+  }
+  
+  const boday = document.body
+  body.addEventListener('keydown', function(event){
+  console.log("keydown: "+ event.key)
+  console.log("keyDownArr: "+keyDownArr)
+  
+  if (keyDownArr.length === 10){
+    keyDownArr.shift()
     keyDownArr.push(event.key)
-    }
-    
-  })
-}
-
-function konamiCodeAchieved(){
-  for (let i=0; i<codes.length; i++){
-    if (codes[i] != keyDownArr[i]){
-      keyDownArr=[]
-    } else {
-      if (codes.length === keyDownArr.length){
-        alert("Fook")
+    for (let i=0; i<codes.length; i++){
+      if (codes[i] != keyDownArr[i]){
+        keyDownArr=[]
+      } else {
+        if (codes.length === keyDownArr.length){
+          alert("Fook")
+        }
       }
     }
+  }else {
+    keyDownArr.push(event.key)
   }
+  })
+
+
+// function konamiCodeAchieved(){
+//   for (let i=0; i<codes.length; i++){
+//     if (codes[i] != keyDownArr[i]){
+//       keyDownArr=[]
+//     } else {
+//       if (codes.length === keyDownArr.length){
+//         alert("Fook")
+//       }
+//     }
+//   }
   
   
   
