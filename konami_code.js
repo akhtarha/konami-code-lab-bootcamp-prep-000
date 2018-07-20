@@ -13,12 +13,14 @@ const codes = [
 
 function init() {
   
-    
+          document.body.addEventListener('ArrowUp', function(event){
+      window.alert("body was clicked!")
+  })
   
   
     for (let i = 0, l = codes.length; i < l; i++) {
       
-      document.body.addEventListener(codes[i], function(event){
+      document.body.addEventListener('ArrowUp', function(event){
       window.alert("body was clicked!")
   })
       
