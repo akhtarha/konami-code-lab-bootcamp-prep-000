@@ -21,7 +21,7 @@ function init() {
       keyDownArr.shift()
       keyDownArr.push(event.key)
       
-      if (codes.equal(keyDownArr)){
+      if (codes.equals(keyDownArr)){
         alert("Hell ya")
       }
     } else {
