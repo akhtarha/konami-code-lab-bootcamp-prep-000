@@ -11,10 +11,12 @@ const codes = [
   "a"
 ];
 
-keyDownArr = []
-achieved = []
+
 
 function init() {
+  keyDownArr = []
+  achieved = []
+  
   document.body.addEventListener('keydown', function(event){
     console.log("keydown: "+ event.key)
     
