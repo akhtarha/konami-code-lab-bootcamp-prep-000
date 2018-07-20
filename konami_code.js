@@ -17,7 +17,7 @@ const boday = document.body
 function init() {
   
 }
-  body.addEventListener('keydown', function(event){
+  document.body.addEventListener('keydown', function(event){
   console.log("keydown: "+ event.key)
   console.log("keyDownArr: "+keyDownArr)
   
