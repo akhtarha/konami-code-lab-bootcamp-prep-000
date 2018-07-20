@@ -30,6 +30,8 @@ function init() {
 }
 
 function konamiCodeAchieved(){
+    console.log("before")
+
   if (_.isEqual(codes, keyDownArr)){
   console.log("yes it has been achieved")
   }
