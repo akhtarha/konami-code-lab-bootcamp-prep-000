@@ -30,8 +30,7 @@ function init() {
         keyDownArr=[]
       } else {
         if (codes.length === keyDownArr.length){
-          console.log("Fook")
-          return true
+          alert("Fook");
         }
       }
     }
