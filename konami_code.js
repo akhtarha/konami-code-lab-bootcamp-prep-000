@@ -30,7 +30,7 @@ function init() {
         keyDownArr=[]
       } else {
         if (codes.length === keyDownArr.length){
-          window.alert("Fook");
+          alert("Fook");
         }
       }
     }
