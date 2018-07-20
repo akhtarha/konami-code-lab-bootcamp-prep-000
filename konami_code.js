@@ -30,8 +30,8 @@ function init() {
       
       console.log("index="+i+": "+codes[i]+ " == "+ keyDownArr[i])
 
-      if (codes[i] != keyDownArr[(keyDownArr.length-10)+i]){
-        
+      if (codes[i] == keyDownArr[(keyDownArr.length-10)+i]){
+        alert('something')
       }
       
       
