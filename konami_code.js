@@ -21,7 +21,7 @@ function init() {
     e = e || window.event;
 
     if (e.keyCode == '38') {
-          document.getElementById("demo").innerHTML = Date();
+          //document.getElementById("demo").innerHTML = Date();
         alert("body was clicked!");
         // up arrow
     }
