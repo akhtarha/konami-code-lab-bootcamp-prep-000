@@ -12,7 +12,6 @@ const codes = [
 ];
 
 var keyDownArr = []
-const boday = document.body
 
 function init() {
   
@@ -30,6 +29,8 @@ function init() {
       } else {
         if (codes.length === keyDownArr.length){
           alert("Fook")
+        } else{
+          console.log("keyDownArrlength: "+keyDownArr.length)
         }
       }
     }
