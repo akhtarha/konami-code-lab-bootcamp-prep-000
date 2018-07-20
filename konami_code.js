@@ -18,6 +18,9 @@ function init() {
     document.body.dispatchEvent(keyboardEvent);
   }
   
+    for (let i = 0, l = codes.length; i < l; i++) {
+        triggerKeyDown(codes[i]);
+      }
   
   // your code here
   
