@@ -20,12 +20,16 @@ function init() {
     if (keyDownArr.length === 10){
       keyDownArr.shift()
       keyDownArr.push(event.key)
-      
-      if (codes.equals(keyDownArr)){
-        alert("Hell ya")
-      }
-    } else {
-      keyDownArr.push(event.key)
     }
+})}
+
+function checkArr(){
+    for (let i=0; i<codes.length; i++){
+      if (codes[i]===keydownArr[i]){
+        
+      }  
+    }
+  } else {
+    keyDownArr.push(event.key)
   }
-)}
+}
