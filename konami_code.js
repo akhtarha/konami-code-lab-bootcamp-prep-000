@@ -49,4 +49,6 @@ function checkArr(codes, keyDownArr){
     //     achieved.push(false)
     //   } 
     // }
+    
+    codes.every(function(value, index))
   }
