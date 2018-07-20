@@ -14,17 +14,17 @@ const codes = [
 function init() {
   
           document.body.addEventListener('ArrowUp', function(event){
-      window.alert("body was clicked!")
+      alert("body was clicked!")
   })
   
   
-    for (let i = 0, l = codes.length; i < l; i++) {
+  //   for (let i = 0, l = codes.length; i < l; i++) {
       
-      document.body.addEventListener('ArrowUp', function(event){
-      window.alert("body was clicked!")
-  })
+  //     document.body.addEventListener('ArrowUp', function(event){
+  //     window.alert("body was clicked!")
+  // })
       
-      }
+  //     }
   
 
   
