@@ -13,9 +13,9 @@ const codes = [
 
 function init() {
   
-  document.body.addEventListener('click', function(event){
-      alert("body was clicked!")
-  })
+document.addEventListener("click", function(){
+    document.getElementById("demo").innerHTML = Date();
+});
   
   
   //   for (let i = 0, l = codes.length; i < l; i++) {
