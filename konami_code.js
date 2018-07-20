@@ -27,6 +27,7 @@ function init() {
   
     for (let i=0; i<codes.length; i++){
       if (codes[i] != keyDownArr[i]){
+        console.log(i)
         console.log(codes[i]+ " : "+ keyDownArr[i])
         //keyDownArr=[]
       } else {
