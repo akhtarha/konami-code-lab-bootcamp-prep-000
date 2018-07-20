@@ -13,15 +13,15 @@ const codes = [
 
 function init() {
   
-    function triggerKeyDown(key) {
-    const keyboardEvent = new KeyboardEvent("keydown", { key });
-    document.body.addEventListener('keydown', function(event){
-      window.alert("body was clicked!")
-  })
+    
   
-  }
   
     for (let i = 0, l = codes.length; i < l; i++) {
+      
+      document.body.addEventListener('keydown', function(event){
+      window.alert("body was clicked!")
+  })
+      
         triggerKeyDown(codes[i]);
       }
   
