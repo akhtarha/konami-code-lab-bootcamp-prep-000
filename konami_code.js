@@ -28,4 +28,4 @@ function init() {
       keyDownArr.push(event.key)
     }
   }
-}
+)}
