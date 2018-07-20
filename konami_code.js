@@ -18,7 +18,7 @@ function init() {
 }
   document.body.addEventListener('keydown', function(event){
   console.log("keydown: "+ event.key)
-  console.log(codes.length===keyDownArr.length)
+  console.log(codes.length===keyDownArr.length) 
   keyDownArr.push(event.key)
   console.log("keyDownArrlength: "+ keyDownArr.length)
   console.log("keyDownArr: "+keyDownArr)
