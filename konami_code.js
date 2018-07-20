@@ -31,7 +31,9 @@ function init() {
   if (codes.length === keyDownArr.length){
     alert("FUCKING DONE WANKER")
   }
-
+  }
+  }
+)
 
 // var keys = [];
 // const body = document.body;
