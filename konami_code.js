@@ -26,7 +26,6 @@ function init() {
     } 
   }
 
-      
   if (codes.length == keyDownArr.length){
     alert("FUCKING DONE WANKER");
   }})
