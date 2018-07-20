@@ -37,5 +37,5 @@ function konamiCodeAchieved(){
 }
 
 function checkArr(codes, keyDownArr){
-   e_.isEqual(c)
+   _.isEqual(codes, keyDownArr)
   }
